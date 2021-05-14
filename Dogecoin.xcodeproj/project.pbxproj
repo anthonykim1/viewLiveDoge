@@ -13,6 +13,9 @@
 		4B862D882645A75E001DEC5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B862D862645A75E001DEC5F /* Main.storyboard */; };
 		4B862D8A2645A75E001DEC5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B862D892645A75E001DEC5F /* Assets.xcassets */; };
 		4B862D8D2645A75E001DEC5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B862D8B2645A75E001DEC5F /* LaunchScreen.storyboard */; };
+		4B862D962645A7D9001DEC5F /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B862D952645A7D9001DEC5F /* APICaller.swift */; };
+		4BC7AB4B2645EC14003D7F89 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7AB4A2645EC14003D7F89 /* Models.swift */; };
+		4BC7AB4E26463314003D7F89 /* DogeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7AB4D26463314003D7F89 /* DogeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		4B862D892645A75E001DEC5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B862D8C2645A75E001DEC5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B862D8E2645A75E001DEC5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B862D952645A7D9001DEC5F /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		4BC7AB4A2645EC14003D7F89 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		4BC7AB4D26463314003D7F89 /* DogeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				4B862D892645A75E001DEC5F /* Assets.xcassets */,
 				4B862D8B2645A75E001DEC5F /* LaunchScreen.storyboard */,
 				4B862D8E2645A75E001DEC5F /* Info.plist */,
+				4B862D952645A7D9001DEC5F /* APICaller.swift */,
+				4BC7AB4A2645EC14003D7F89 /* Models.swift */,
+				4BC7AB4D26463314003D7F89 /* DogeTableViewCell.swift */,
 			);
 			path = Dogecoin;
 			sourceTree = "<group>";
@@ -137,9 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BC7AB4E26463314003D7F89 /* DogeTableViewCell.swift in Sources */,
 				4B862D852645A75E001DEC5F /* ViewController.swift in Sources */,
 				4B862D812645A75E001DEC5F /* AppDelegate.swift in Sources */,
 				4B862D832645A75E001DEC5F /* SceneDelegate.swift in Sources */,
+				4B862D962645A7D9001DEC5F /* APICaller.swift in Sources */,
+				4BC7AB4B2645EC14003D7F89 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
